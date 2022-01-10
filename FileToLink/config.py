@@ -20,7 +20,7 @@ class Config:
 
     Link_Root = f"https://domaincheker.herokuapp.com/"
     Download_Folder = "Files"
-    Dev_Channel = "shadow_bots"
+    Dev_Channel = "dizimizsupportbot"
     Bot_UserName = None  # The bot will set it after starting
     Part_size = 10 * 1024 * 1024  # (10MB) For Pyrogram
     Buffer_Size = 512 * 1024  # For Quart
@@ -36,7 +36,7 @@ class Strings:
     st_link = "🎞 پخش آنلاین"
     generating_link = "**⏳ درحال ساخت لینک...**"
     bot_channel = "📢 کانال دیزیمیز"
-    dev_channel = "🤖"
+    dev_channel = "💬ارسال پیام به ادمین "
     fast = "⚡️**لینک بروزرسانی شد**"
     update_link = "⚡ بروزرسانی لینک"
     update_limited = (f"⛔ You can update just {Config.Max_Fast_Processes} link in one time, "
