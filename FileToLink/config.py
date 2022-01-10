@@ -18,7 +18,7 @@ class Config:
     elif Bot_Channel == "":
         Bot_Channel = None
 
-    Link_Root = f"https://{App_Name}.herokuapp.com/"
+    Link_Root = f"https://domaincheker.herokuapp.com/"
     Download_Folder = "Files"
     Dev_Channel = "shadow_bots"
     Bot_UserName = None  # The bot will set it after starting
